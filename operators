@@ -1,0 +1,30 @@
+var num1:number = 2
+var num2:number = 5
+var res:number = 0
+   
+res = num1 + num2
+console.log("add:", res)
+
+num1 += num2
+console.log("add", num1)
+
+res = num1 - num2
+console.log("minus:", res)
+
+num1 -= num2
+console.log("minus:", num1)
+
+res = num1 * num2
+console.log("times:", res)
+
+res = num1 / num2
+console.log("divide:", res)
+   
+res = num1 % num2
+console.log("mod:", res)
+
+num1++
+console.log("Auto-Increment:", num1)
+
+num2--
+console.log("Auto-Decrement:", num2)
